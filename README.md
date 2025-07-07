@@ -1,5 +1,59 @@
-# Vue 3 + TypeScript + Vite
+# 📦 Ventas Frontend
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este es el proyecto frontend para el sistema de ventas. Fue desarrollado con **Vue 3**, **TypeScript** y **Axios**. Permite iniciar sesión y gestionar ventas a través de una API backend.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 🚀 Tecnologías
+
+- [Vue 3](https://vuejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Axios](https://axios-http.com/)
+- [Vite](https://vitejs.dev/)
+
+## Configuración
+
+1. Clona el repositorio:
+
+   ```
+   git clone https://github.com/tu-usuario/ventas-frontend.git
+   cd ventas-frontend
+   ```
+
+2. Instala las dependencias:
+
+   ```
+   npm install
+   ```
+
+3. Inicia el servidor de desarrollo:
+
+   ```
+   npm run dev
+   ```
+
+4. El frontend se ejecutará en:
+
+   ```
+   http://localhost:5173
+   ```
+
+## API Backend
+
+1. Este proyecto consume una API disponible en:
+
+   ```
+   https://localhost:5001/api
+   ```
+
+2. Asegúrate de que el backend esté corriendo antes de probar la app.
+
+## Autenticación
+
+- Se utiliza JWT.
+- El token se guarda en localStorage y se envía automáticamente con cada petición autenticada.
+
+## Credenciales de prueba
+
+```
+Usuario: admin
+Contraseña: 1234
+```
