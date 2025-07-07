@@ -32,4 +32,8 @@ const fetchVentas = async () => {
 onMounted(() => {
   fetchVentas();
 });
+
+defineExpose({
+  fetchVentas,
+});
 </script>
